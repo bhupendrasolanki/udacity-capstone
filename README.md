@@ -100,11 +100,21 @@ The parameters used are "C" and "max-iter".  "C" is Inverse of regularization st
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
-## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+#### Below is the best model service.
+![alt text](https://github.com/bhupendrasolanki/udacity-capstone/blob/main/service_success.PNG)
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+#### Test data to test service.
+
+![alt text](https://github.com/bhupendrasolanki/udacity-capstone/blob/main/best_model_test_data.PNG)
+
+#### Test Data query endpoint.
+
+![alt text](https://github.com/bhupendrasolanki/udacity-capstone/blob/main/best_model_endpoint_test.PNG)
+
+![alt text](https://github.com/bhupendrasolanki/udacity-capstone/blob/main/deployed_service.PNG)
+
+## Screen Recording
+
+Please find the below link for video.
+https://www.youtube.com/watch?v=niPxG80ICyw
+
