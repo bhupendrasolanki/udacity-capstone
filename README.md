@@ -25,7 +25,9 @@ The Task using this dataset is to train one AutoML model and one HyperDrive mode
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
 
-I accessed the dataset which is uploaded on github using AzureML TabularDatasetFactory module. 
+I accessed the dataset which is uploaded on github `from_delimited_files('webURL')` of the `TabularDatasetFactory` Class.
+
+https://github.com/bhupendrasolanki/udacity-capstone/blob/main/heart_failure_clinical_records_dataset.csv
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
