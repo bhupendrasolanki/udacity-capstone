@@ -93,6 +93,10 @@ The parameters used are "C" and "max-iter".  "C" is Inverse of regularization st
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
+![alt text](https://github.com/bhupendrasolanki/udacity-capstone/blob/main/hyper_drive_run_details.PNG)
+
+
+
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
