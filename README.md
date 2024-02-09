@@ -2,7 +2,7 @@
 
 # Your Project Title Here
 
-*TODO:* Write a short introduction to your project.
+*TODO:* Heart Failure Prediction
 
 ## Project Set Up and Installation
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
@@ -12,11 +12,20 @@
 ### Overview
 *TODO*: Explain about the data you are using and where you got it from.
 
+The data I used is from Kaggle which Heart Failure Dataset. The dataset description is given below.
+
+![alt text](https://github.com/bhupendrasolanki/udacity-capstone/blob/main/data_desc.PNG)
+
+
 ### Task
 *TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
 
+The Task using this dataset is to train one AutoML model and one HyperDrive model and then compare the two model and deploy the best model.
+
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
+
+I accessed the dataset which is uploaded on github using AzureML TabularDatasetFactory module. 
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
