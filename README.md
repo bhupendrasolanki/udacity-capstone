@@ -47,6 +47,30 @@ n_cross_validations | No. of cross validations to perform | 5
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
+{"schema_type": "confusion_matrix", "schema_version": "1.0.0", "data": {"class_labels": ["0", "1"], "matrix": [[195, 8], [24, 72]]}}
+
+{
+    "class_name": "LightGBMClassifier",
+    "module": "automl.client.core.common.model_wrappers",
+    "param_args": [],
+    "param_kwargs": {
+        "boosting_type": "gbdt",
+        "colsample_bytree": 0.6933333333333332,
+        "learning_rate": 0.05789894736842106,
+        "max_bin": 70,
+        "max_depth": 8,
+        "min_child_weight": 8,
+        "min_data_in_leaf": 0.041385172413793116,
+        "min_split_gain": 0.6842105263157894,
+        "n_estimators": 400,
+        "num_leaves": 200,
+        "reg_alpha": 0.5789473684210527,
+        "reg_lambda": 0.2631578947368421,
+        "subsample": 0.29736842105263156
+    },
+    "prepared_kwargs": {},
+    "spec_class": "sklearn"
+}
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Hyperparameter Tuning
